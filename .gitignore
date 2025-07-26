@@ -1,0 +1,117 @@
+# Ignore Cloud Shell/VS Code related files
+.codeoss/
+.vscode/
+
+# Ignore Java/Android/iOS build and configuration files
+# (These are common for Flutter projects as they contain native code)
+*.jar
+*.class
+target/
+build/
+.gradle/
+.classpath
+.project
+.settings/
+.factorypath
+.metadata/
+android/app/build/
+ios/build/
+ios/.symlinks/
+macos/build/
+linux/build/
+windows/build/
+web/build/
+
+# Ignore Flutter/Dart specific files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.idea/
+pubspec.lock # Generally good to track, but sometimes ignored for regeneration
+
+# Other common temporary or generated files
+*.log
+*.tmp
+*.swp
+.DS_Store # macOS specific
+Thumbs.db # Windows specific# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# Ignore Cloud Shell/VS Code related files
+.codeoss/
+.vscode/
+
+# Ignore Java-specific build/config files (common for Java projects, related to redhat.java)
+*.jar
+*.class
+target/
+build/
+.gradle/
+.classpath
+.project
+.settings/
+.factorypath
+.metadata/
+
+# Ignore Flutter/Dart specific files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.idea/
+pubspec.lock # Generally good to keep, but can be ignored if you want to force regeneration
+# If you have platform-specific build outputs
+ios/build/
+android/build/
+windows/build/
+linux/build/
+macos/build/
+web/build/
+
+# Other common temporary or generated files
+*.log
+*.tmp
+*.swp
